@@ -298,33 +298,39 @@ h3 {
     padding-top: 4%; 
 }
 
-.price {
-    width: 100%;
+
+.input, .input-text {
+    float: left;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+
 }
 
 .feedback {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.contact-text {
+.input-text {
+    height: 50px;
+}
+
+.form-text {
     float: left;
-    margin-right: 100px;
-    margin-left: 250px;
+    margin-left: 31%;
     width: 150px;
 }
 
-.form-item {
-    
-    float: left;
-    width: 600px;
-    height: 30px;
-    margin-right: 300px;
+.submit {
+    float: right;
     margin-bottom: 20px;
+    margin-right: 770px;
+    margin-left: 10%;
 }
 
-.button4 {
+.submit {
     border-radius: 20px;
     font-size: 25px;
     padding: 6px 20px;
@@ -332,11 +338,21 @@ h3 {
     color: orange;
     background-color: rgba(0, 0, 0, 0);
 }
-
-.button4:hover {
-    background-color: orangered;
+.submit:hover {
+    background-color: orange;
     color: white;
 }
+.form-text1 {
+
+}
+
+
+
+
+
+
+
+
 
 .footer-menu-nav {
     margin: 1%;
